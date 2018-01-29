@@ -12,23 +12,18 @@
 		540AECD0200C0E3A00EE2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540AECCE200C0E3A00EE2DEC /* Main.storyboard */; };
 		540AECD2200C0E3A00EE2DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540AECD1200C0E3A00EE2DEC /* Assets.xcassets */; };
 		540AECD5200C0E3A00EE2DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540AECD3200C0E3A00EE2DEC /* LaunchScreen.storyboard */; };
-		5433314620152C1200B0356F /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433314320152C1200B0356F /* DCPathButton.m */; };
-		5433314720152C1200B0356F /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433314520152C1200B0356F /* DCPathItemButton.m */; };
+		544C7928201E720800B15624 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C7927201E720800B15624 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		540AECC7200C0E3A00EE2DEC /* MagnifierV2Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnifierV2Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AECC7200C0E3A00EE2DEC /* MagnifierV2Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MagnifierV2Test1.app; path = "/Users/nicholasrosato/Documents/EPICSMagnifierAppS2018/MagnifierV2Test1/build/Debug-iphoneos/MagnifierV2Test1.app"; sourceTree = "<absolute>"; };
 		540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		540AECCC200C0E3A00EE2DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		540AECCF200C0E3A00EE2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		540AECD1200C0E3A00EE2DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540AECD4200C0E3A00EE2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540AECD6200C0E3A00EE2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5433314120152C1100B0356F /* MagnifierV2Test1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagnifierV2Test1-Bridging-Header.h"; sourceTree = "<group>"; };
-		5433314220152C1200B0356F /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathButton.h; path = "../../../Downloads/DCPathButton-master/DCPathButton/Classes/DCPathButton.h"; sourceTree = "<group>"; };
-		5433314320152C1200B0356F /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathButton.m; path = "../../../Downloads/DCPathButton-master/DCPathButton/Classes/DCPathButton.m"; sourceTree = "<group>"; };
-		5433314420152C1200B0356F /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPathItemButton.h; path = "../../../Downloads/DCPathButton-master/DCPathButton/Classes/DCPathItemButton.h"; sourceTree = "<group>"; };
-		5433314520152C1200B0356F /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPathItemButton.m; path = "../../../Downloads/DCPathButton-master/DCPathButton/Classes/DCPathItemButton.m"; sourceTree = "<group>"; };
+		544C7927201E720800B15624 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ../CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,26 +41,13 @@
 			isa = PBXGroup;
 			children = (
 				540AECC9200C0E3A00EE2DEC /* MagnifierV2Test1 */,
-				540AECC8200C0E3A00EE2DEC /* Products */,
-				5433314220152C1200B0356F /* DCPathButton.h */,
-				5433314320152C1200B0356F /* DCPathButton.m */,
-				5433314420152C1200B0356F /* DCPathItemButton.h */,
-				5433314520152C1200B0356F /* DCPathItemButton.m */,
-				5433314120152C1100B0356F /* MagnifierV2Test1-Bridging-Header.h */,
 			);
-			sourceTree = "<group>";
-		};
-		540AECC8200C0E3A00EE2DEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				540AECC7200C0E3A00EE2DEC /* MagnifierV2Test1.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		540AECC9200C0E3A00EE2DEC /* MagnifierV2Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				544C7927201E720800B15624 /* CameraView.swift */,
 				540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */,
 				540AECCC200C0E3A00EE2DEC /* ViewController.swift */,
 				540AECCE200C0E3A00EE2DEC /* Main.storyboard */,
@@ -122,7 +104,7 @@
 				Base,
 			);
 			mainGroup = 540AECBE200C0E3A00EE2DEC;
-			productRefGroup = 540AECC8200C0E3A00EE2DEC /* Products */;
+			productRefGroup = 540AECBE200C0E3A00EE2DEC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -149,8 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433314720152C1200B0356F /* DCPathItemButton.m in Sources */,
-				5433314620152C1200B0356F /* DCPathButton.m in Sources */,
+				544C7928201E720800B15624 /* CameraView.swift in Sources */,
 				540AECCD200C0E3A00EE2DEC /* ViewController.swift in Sources */,
 				540AECCB200C0E3A00EE2DEC /* AppDelegate.swift in Sources */,
 			);
