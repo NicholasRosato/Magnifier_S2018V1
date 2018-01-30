@@ -9,34 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func controlButtons(_ sender: UIButton) {
-       // buttonPressed(senderTag: sender.tag)
-    }
-    
- /*   func buttonPressed(senderTag : Int){
-        if senderTag == 0
-        {
-            print ("Device Images")
-            print (senderTag)
-        }
-        else if senderTag == 1
-        {
-            print ("Fullscreen")
-            print (senderTag)
-        }
-        else if senderTag == 2
-        {
-            print ("Flip Image")
-            print (senderTag)
-        }
-        else if senderTag == 3
-        {
-            print ("Snapshot")
-            print (senderTag)
-        }
-    }*/
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
