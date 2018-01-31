@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		540AECC7200C0E3A00EE2DEC /* MagnifierV2Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MagnifierV2Test1.app; path = "/Users/nicholasrosato/Documents/EPICSMagnifierAppS2018/MagnifierV2Test1/build/Debug-iphoneos/MagnifierV2Test1.app"; sourceTree = "<absolute>"; };
 		540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		540AECCC200C0E3A00EE2DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		540AECCF200C0E3A00EE2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +23,7 @@
 		540AECD4200C0E3A00EE2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540AECD6200C0E3A00EE2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544C7927201E720800B15624 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ../CameraView.swift; sourceTree = "<group>"; };
+		913DD751202242D7005645F2 /* MagnifierV2Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnifierV2Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +41,16 @@
 			isa = PBXGroup;
 			children = (
 				540AECC9200C0E3A00EE2DEC /* MagnifierV2Test1 */,
+				913DD751202242D7005645F2 /* MagnifierV2Test1.app */,
 			);
 			sourceTree = "<group>";
 		};
 		540AECC9200C0E3A00EE2DEC /* MagnifierV2Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				913DD75B20224643005645F2 /* Model */,
+				913DD75A2022463A005645F2 /* Controller */,
+				913DD75920224626005645F2 /* View */,
 				544C7927201E720800B15624 /* CameraView.swift */,
 				540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */,
 				540AECCC200C0E3A00EE2DEC /* ViewController.swift */,
@@ -56,6 +60,27 @@
 				540AECD6200C0E3A00EE2DEC /* Info.plist */,
 			);
 			path = MagnifierV2Test1;
+			sourceTree = "<group>";
+		};
+		913DD75920224626005645F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		913DD75A2022463A005645F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		913DD75B20224643005645F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,7 +100,7 @@
 			);
 			name = MagnifierV2Test1;
 			productName = MagnifierV2Test1;
-			productReference = 540AECC7200C0E3A00EE2DEC /* MagnifierV2Test1.app */;
+			productReference = 913DD751202242D7005645F2 /* MagnifierV2Test1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
