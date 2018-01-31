@@ -51,9 +51,6 @@
 				913DD75B20224643005645F2 /* Model */,
 				913DD75A2022463A005645F2 /* Controller */,
 				913DD75920224626005645F2 /* View */,
-				544C7927201E720800B15624 /* CameraView.swift */,
-				540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */,
-				540AECCC200C0E3A00EE2DEC /* ViewController.swift */,
 				540AECCE200C0E3A00EE2DEC /* Main.storyboard */,
 				540AECD1200C0E3A00EE2DEC /* Assets.xcassets */,
 				540AECD3200C0E3A00EE2DEC /* LaunchScreen.storyboard */,
@@ -65,22 +62,25 @@
 		913DD75920224626005645F2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				544C7927201E720800B15624 /* CameraView.swift */,
 			);
-			path = View;
+			name = View;
 			sourceTree = "<group>";
 		};
 		913DD75A2022463A005645F2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				540AECCC200C0E3A00EE2DEC /* ViewController.swift */,
 			);
-			path = Controller;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		913DD75B20224643005645F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				540AECCA200C0E3A00EE2DEC /* AppDelegate.swift */,
 			);
-			path = Model;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
