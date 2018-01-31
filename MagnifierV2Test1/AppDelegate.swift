@@ -5,7 +5,6 @@
 //  Created by Nicholas Rosato on 1/14/18.
 //  Copyright © 2018 EPICSMagnifierTeam. All rights reserved.
 //
-//testing working out of the master
 import UIKit
 
 @UIApplicationMain
